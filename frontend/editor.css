@@ -622,7 +622,7 @@ li.dir.CodeMirror-hint:before {
     header:focus-within > nav#at_the_top > pluto-filepicker button {
         opacity: 1;
     }
-}
+} 
 
 body.binder > header > nav#at_the_top > pluto-filepicker > * {
     display: none;
