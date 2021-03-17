@@ -1,0 +1,69 @@
+["400.css"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["400.css".download]]
+    sha256 = "60849a91d6e0430e5cef3a5855a99592cf41fc3d"
+    url = "https://cdn.jsdelivr.net/npm/fontsource-roboto-mono@3.0.3/400.css"
+
+["600.css"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["600.css".download]]
+    sha256 = "9acacc63549f9005e40bfa2a06d997d7effb9c33"
+    url = "https://cdn.jsdelivr.net/npm/fontsource-vollkorn@3.0.3/600.css"
+
+["JuliaMono-Bold.woff2"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["JuliaMono-Bold.woff2".download]]
+    sha256 = "74d323be041193e3301a936901a42d9ff17cdbe7"
+    url = "https://cdn.jsdelivr.net/gh/cormullion/juliamono@0.030/webfonts/JuliaMono-Bold.woff2"
+
+["JuliaMono-BoldLatin.woff2"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["JuliaMono-BoldLatin.woff2".download]]
+    sha256 = "946fa745accd11c4061525c5a7b3b806a49d68a0"
+    url = "https://cdn.jsdelivr.net/gh/cormullion/juliamono@0.030/webfonts/JuliaMono-BoldLatin.woff2"
+
+["JuliaMono-Regular.woff2"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["JuliaMono-Regular.woff2".download]]
+    sha256 = "8161568ef2b199a6a32a1b5a6d45fba792a3a047"
+    url = "https://cdn.jsdelivr.net/gh/cormullion/juliamono@0.030/webfonts/JuliaMono-Regular.woff2"
+
+["JuliaMono-RegularLatin.woff2"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["JuliaMono-RegularLatin.woff2".download]]
+    sha256 = "4597b429abc683e63c5da6ed189943d380b7935a"
+    url = "https://cdn.jsdelivr.net/gh/cormullion/juliamono@0.030/webfonts/JuliaMono-RegularLatin.woff2"
+
+[PlutoCSS]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [[PlutoCSS.download]]
+    sha256 = "9acacc63549f9005e40bfa2a06d997d7effb9c33"
+    url = "https://cdn.jsdelivr.net/npm/fontsource-vollkorn@3.0.3/600.css"
+
+["caret-forward-circle-outline.svg"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["caret-forward-circle-outline.svg".download]]
+    sha256 = "27dbb0c54ec41ca07707ce84248f4684a360bf50"
+    url = "https://cdn.jsdelivr.net/gh/ionic-team/ionicons@5.0.0/src/svg/caret-forward-circle-outline.svg"
+
+["close-circle.svg"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["close-circle.svg".download]]
+    sha256 = "40ccbcc3d87f81c581e21f056fb1835d9522c69f"
+    url = "https://cdn.jsdelivr.net/gh/ionic-team/ionicons@5.0.0/src/svg/close-circle.svg"
+
+["ellipsis-horizontal-outline.svg"]
+git-tree-sha1 = "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+
+    [["ellipsis-horizontal-outline.svg".download]]
+    sha256 = "00b144a3264e63c7702030404238ac88a7ede729"
+    url = "https://cdn.jsdelivr.net/gh/ionic-team/ionicons@5.0.0/src/svg/ellipsis-horizontal-outline.svg"

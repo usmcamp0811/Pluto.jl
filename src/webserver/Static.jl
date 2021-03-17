@@ -1,6 +1,7 @@
 import HTTP
 import Markdown: htmlesc
 import UUIDs: UUID
+using Pkg.Artifacts
 
 # Serve everything from `/frontend`, and create HTTP endpoints to open notebooks.
 
@@ -211,11 +212,26 @@ function http_router_for(session::ServerSession)
     function serve_asset(request::HTTP.Request)
         uri = HTTP.URI(request.target)
         
-        filepath = project_relative_path("frontend", relpath(HTTP.unescapeuri(uri.path), "/"))
+        @show filepath = project_relative_path("frontend", relpath(HTTP.unescapeuri(uri.path), "/"))
         asset_response(filepath)
     end
+
+    function serve_artifact(request::HTTP.Request)
+        uri = HTTP.URI(request.target)
+        @show file = String(split(uri.path, "/")[3])
+        artifact_path = @artifact_str(file)
+        @show "test"
+        @show filepath = project_relative_path("frontend", artifact_path)
+
+        asset_response(filepath)
+
+
+        # filepath = project_relative_path("frontend", relpath)
+    end
     HTTP.@register(router, "GET", "/*", serve_asset)
-    HTTP.@register(router, "GET", "/favicon.ico", create_serve_onefile(project_relative_path("frontend", "img", "favicon.ico")))
+    HTTP.@register(router, "GET", "/artifact/*", serve_artifact)
+    HTTP.@register(router, "GET", "/favicon.ico", create_serve_onefile(project_relative_path("frontend", "img", "favicon-96x96.png")))
+    HTTP.@register(router, "GET", "/600.css", create_serve_onefile(project_relative_path(artifact"600.css")))
 
     return router
 end
